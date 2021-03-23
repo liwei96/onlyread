@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let ip ='var ip_arr =({"ip":"60.176.173.42"})'
+        ip = ip.split('=')[1].split(':')[1]
+        ip = ip.substring(1)
+        ip = ip.slice(0,-3)
+        console.log(ip)
+    </script>
+</body>
+</html>
